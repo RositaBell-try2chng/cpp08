@@ -17,7 +17,7 @@ int	main( void )
 {
 	std::vector<int>			cont;
 	for (int i = 0; i < 100; i++)
-		cont.push_back(i * i);
-	tryToFound(cont, 4);
-	tryToFound(cont, 224);
+		cont.push_back(i % 20);
+	tryToFound(cont, 1);
+	tryToFound(cont, 20);
 }

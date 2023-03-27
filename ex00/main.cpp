@@ -5,7 +5,7 @@ void tryToFound(T &a, int n)
 {
 	try
 	{
-		std::cout << *easyfind(a, n) << std::endl;
+		std::cout << *easyFind(a, n) << std::endl;
 	}
 	catch (std::exception &e)
 	{
@@ -15,7 +15,8 @@ void tryToFound(T &a, int n)
 
 int	main( void )
 {
-	std::vector<int>			cont;
+	std::vector<int>	cont;
+
 	for (int i = 0; i < 100; i++)
 		cont.push_back(i % 20);
 	tryToFound(cont, 1);

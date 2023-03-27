@@ -2,7 +2,7 @@
 #define EASYFIND_TPP
 
 template <typename T>
-typename T::iterator easyfind(T &a, int n)
+typename T::iterator easyFind(T &a, int n)
 {
 	typename T::iterator res = find(a.begin(), a.end(), n);
 
